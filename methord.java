@@ -1,9 +1,9 @@
 public class methord{
-    public  double circle(double r){
+    public static double circle(double r){
         return 3.14*r*r;
     }
-    public  int rectangle(int a,int b){
-        return a*b;
+    public  double rectangle(double a,int b){
+        return circle(a)*b;
     }
     public static void main(String args[]){
         methord m=new methord();
